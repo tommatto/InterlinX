@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Meeting" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Schedule" />
+    </group>
+
+    <!--<item android:title="Category">-->
+       <!-- <menu>-->
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Exhibitors" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Speakers" />
+            <item
+                android:id="@+id/nav_sponsors"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sponsors" />
+            <item
+                android:id="@+id/nav_delegate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="B2B Delegat" />
+            <item
+                android:id="@+id/nav_internationsl_delegate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="International Delegate" />
+            <item
+                android:id="@+id/nav_group_member"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Group Member" />
+            <item
+                android:id="@+id/nav_invitee"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Invitee" />
+    </group>
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
