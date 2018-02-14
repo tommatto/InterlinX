@@ -20,6 +20,10 @@ public class HomeMenuAdapter extends RecyclerView.Adapter<HomeMenuAdapter.ViewHo
 
     }
 
+    public void getAllData(){
+
+    }
+
     @Override
     public int getItemCount() {
         return 0;
